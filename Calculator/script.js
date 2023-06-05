@@ -38,7 +38,6 @@ Array.from(buttons).forEach((button) => {
 
 toggle_dark.addEventListener('click', (Event) => {
     console.log('Dark is Clicked');
-    // toggle_dark.innerHTML = 'Dark'
     display.style.backgroundColor = 'rgba(32, 36, 45, 1)'
     display.style.color = 'white'
     calculator.style.backgroundColor = 'rgba(32, 36, 45, 1)'
@@ -46,7 +45,6 @@ toggle_dark.addEventListener('click', (Event) => {
 
 toggle_light.addEventListener('click', (Event) => {
     console.log('Light is Clicked');
-    // toggle_light.innerHTML = 'Dark'
     display.style.backgroundColor = '#D0D3E2'
     display.style.color = 'black'
     calculator.style.backgroundColor = '#D0D3E2'
